@@ -74,7 +74,7 @@ void diamondSearch(const cv::Mat &preImg, const cv::Mat &curImg, int preX, int p
 			break;
 		}
 	}
-	moveVector.x=curX-preX;
+  moveVector.x=curX-preX;
   moveVector.y=curY-preY;
 }
 //计算运动矢量
