@@ -64,7 +64,7 @@ void diamondSearch(const cv::Mat &preImg, const cv::Mat &curImg, int preX, int p
 			}
 			if(blockmatcherr!=-1&&blockmatcherr<minMatch){
            		minMatch=blockmatcherr;
-            	flagMin=i;
+            		flagMin=i;
         	}
 		}
 		if(flagMin!=4){
@@ -107,5 +107,5 @@ void motionEstimation(const cv::Mat &preImg, const cv::Mat &curImg, cv::Mat &mot
                 }
             }
         }
-		} 
+    } 
 }
